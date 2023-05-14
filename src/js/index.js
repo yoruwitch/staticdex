@@ -8,8 +8,8 @@ button.addEventListener("click", () => {
     body.classList.toggle("modo-escuro");
 
     if (darkModeOn) {
-        imgChangeTheme.setAttribute("src", "./imgs/sun.png");
+        imgChangeTheme.setAttribute("src", "./src/imgs/sun.png");
     } else {
-        imgChangeTheme.setAttribute("src", "./imgs/moon.png");
+        imgChangeTheme.setAttribute("src", "./src/imgs/moon.png");
     }
 });
